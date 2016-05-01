@@ -1,0 +1,26 @@
+---
+title: "CodeBook"
+author: "Dominic Rehn"
+date: "1 May 2016"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+# Header1 
+Data Description
+
+subject: This refers to the volunteer id number for each subject who was measured undertaking the activities. This is an integer between 1 and 30.
+
+activity_code and activity: This is the code and descriptive name for the activity being measured and refers to the activity code. The following values are valid.
+1. WALKING
+2. WALKING_UPSTAIRS
+3. WALKING_DOWNSTAIRS
+4. SITTING
+5. STANDING
+6. LAYING
+
+mean(): Real number values which are the mean grouped by the subject and activity
+std(): mean of the standard deviation measurements grouped by the subject and activity
